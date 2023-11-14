@@ -1,7 +1,7 @@
 import turtle
 import time
  
-#绘制月亮
+#draw the moon
 def drawMoon():            
 	turtle.penup()
 	turtle.goto(-150, 0)
@@ -12,7 +12,7 @@ def drawMoon():
 	turtle.end_fill()
  
  
-#绘制云朵
+#draw clouds
 def drawCloud():           
    turtle.penup()
    turtle.goto(-500, 200)
@@ -36,7 +36,7 @@ def drawCloud():
    turtle.forward(600)
  
  
-#绘制山川
+#draw mountains and rivers
 def drawMountain():          
    turtle.penup()
    turtle.goto(-500, -250)
@@ -58,10 +58,10 @@ def drawMountain():
    turtle.end_fill()
  
  
-#画嫦娥
+#painting Chang'e
 def draw_ChangE():
     lx, ly = -30, 50
-    # 左手
+    # left hand
     print("ok")
     turtle.penup()
     turtle.color("#ffffeb")
@@ -74,7 +74,7 @@ def draw_ChangE():
     turtle.right(170)
     turtle.circle(-6, 180)
     turtle.circle(-50, 20)
-    # 左袖
+    # left sleeve
     turtle.penup()
     turtle.color('red')
     turtle.goto(lx, ly)
@@ -89,7 +89,7 @@ def draw_ChangE():
     turtle.right(90)
     turtle.fd(10)
     turtle.circle(-50, 40)
-    # 衣服
+    # clothing
     turtle.color('#f3dd64')
     turtle.penup()
     turtle.right(90)
@@ -99,7 +99,7 @@ def draw_ChangE():
     turtle.circle(-100, 8)
     turtle.circle(-20, 80)
     turtle.circle(-100, 11)
-    # 衣服2
+    # clothing2
     turtle.penup()
     turtle.circle(-100, -11)
     turtle.circle(-20, -80)
@@ -108,7 +108,7 @@ def draw_ChangE():
     turtle.circle(-100, 6)
     turtle.circle(-15, 82)
     turtle.circle(-40, 35)
-    # 衣服-裙
+    # clothes-skirts
     turtle.color('red')
     turtle.penup()
     turtle.circle(-40, -35)
@@ -121,7 +121,7 @@ def draw_ChangE():
     turtle.circle(-100, 60)
     turtle.right(60)
     turtle.circle(-200, 2)
-    # 右袖
+    # right sleeve
     turtle.penup()
     turtle.circle(-200, -2)
     turtle.right(-60)
@@ -143,7 +143,7 @@ def draw_ChangE():
     turtle.circle(-50, 40)
     turtle.right(57)
     turtle.circle(-200, 10)
-    # 右手
+    # right hand
     turtle.penup()
     turtle.circle(-200, -10)
     turtle.right(-57)
@@ -153,7 +153,7 @@ def draw_ChangE():
     turtle.circle(10, 15)
     turtle.pendown()
     turtle.circle(10, 190)
-    # 下方飘带
+    # streamers below
     turtle.penup()
     turtle.circle(10, -90)
     turtle.seth(-140)
@@ -169,7 +169,7 @@ def draw_ChangE():
     turtle.circle(-30, 50)
     turtle.circle(20, 80)
     turtle.fd(25)
-    # 脸
+    # face
     turtle.penup()
     turtle.goto(lx, ly)
     turtle.seth(-140)
@@ -181,12 +181,12 @@ def draw_ChangE():
     turtle.color('black')
     turtle.begin_fill()
     turtle.circle(-30, 30)
-    # 耳朵
+    # ears
     turtle.left(100)
     turtle.circle(-10, 180)
     turtle.circle(-2, 60)
     turtle.circle(-40, 20)
-    # 头发
+    # hair
     turtle.left(150)
     turtle.circle(-10, 90)
     turtle.circle(80, 10)
@@ -213,7 +213,7 @@ def draw_ChangE():
     turtle.circle(2, 50)
     turtle.circle(180, 25)
     turtle.end_fill()
-    # 发髻
+    # bun
     turtle.penup()
     turtle.circle(180, -25)
     turtle.circle(2, -50)
@@ -237,7 +237,7 @@ def draw_ChangE():
     turtle.right(90)
     turtle.circle(-4, 180)
     turtle.end_fill()
-    # 脸
+    # face
     turtle.penup()
     turtle.width(1)
     turtle.goto(lx, ly)
@@ -262,7 +262,7 @@ def draw_ChangE():
     turtle.left(3)
     turtle.circle(-200, 9)
     turtle.end_fill()
-    # 眼睛
+    # eyes
     turtle.penup()
     turtle.width(6)
     turtle.goto(lx, ly)
@@ -278,7 +278,7 @@ def draw_ChangE():
     turtle.left(90)
     turtle.pendown()
     turtle.fd(4)
-    # 嘴
+    # mouth
     turtle.penup()
     turtle.circle(100, 10)
     turtle.width(4)
@@ -299,12 +299,12 @@ def initTurtle():
    turtle.speed(100)
  
  
-#写诗
+# write poetry
 def writePoetry():
 	turtle.penup()
 	turtle.goto(400, -150)
 	turtle.pencolor((250, 240, 230))
-	# 诗句
+	# verse
 	potery = ["\n明\n月\n几\n时\n有\n", "把\n酒\n问\n青\n天\n"]
 	coordinates = [(300, -150), (200, -150), (100, -150)]
 	for i, p in enumerate(potery):
