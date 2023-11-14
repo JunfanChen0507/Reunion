@@ -293,7 +293,7 @@ def draw_ChangE():
 def initTurtle():
    turtle.hideturtle()
    turtle.setup(1000, 600)
-   turtle.title('中秋月饼')
+   turtle.title('Reunion')
    turtle.colormode(255)
    turtle.bgcolor((8, 46, 84))
    turtle.speed(100)
