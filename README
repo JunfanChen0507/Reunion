@@ -1,0 +1,38 @@
+# Mid-Autumn Festival Scene with Turtle Graphics
+
+This Python script utilizes the Turtle graphics library to create a delightful Mid-Autumn Festival scene. The scene includes a moon, clouds, mountains, and a representation of Chang'e, the mythical figure associated with the festival.
+
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+
+## Features
+
+- **Draw Moon:** Renders a vibrant moon on the canvas.
+- **Draw Cloud:** Illustrates fluffy clouds floating across the night sky.
+- **Draw Mountain:** Depicts majestic mountains beneath the moon.
+- **Write Poetry:** Displays a traditional Chinese poem about the moon.
+- **Add Moon Palace:** Incorporates an illustration of Chang'e and her Moon Palace.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+
+### Installation
+
+Install the required dependencies:
+pip install pygame
+
+Usage
+Run the script:
+python Reunion.py
+Observe the beautiful Mid-Autumn Festival scene drawn on the Turtle graphics window.
+
+Contact
+For questions or feedback, please contact junfan.chen-1@student.uts.edu.au.
